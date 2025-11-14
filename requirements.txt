@@ -1,5 +1,7 @@
 cffi==2.0.0
 cryptography==41.0.7
+dotenv==0.9.9
 mysql-connector-python==8.2.0
 protobuf==4.21.12
 pycparser==2.23
+python-dotenv==1.2.1

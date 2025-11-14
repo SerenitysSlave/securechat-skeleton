@@ -26,8 +26,8 @@ CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `username` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `salt` varbinary(16) NOT NULL,
-  `pwd_hash` char(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `salt` varbinary(32) NOT NULL,
+  `pwd_hash` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `last_login` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-11-14 22:43:36
+-- Dump completed on 2025-11-14 23:52:50

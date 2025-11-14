@@ -10,7 +10,7 @@ sys.path.insert(0, ".")  # Ensure project root on path
 
 from cryptography import x509  # noqa: E402
 from cryptography.hazmat.primitives import serialization  # Added import
-from src.common.cert_validator import CertificateValidator  # noqa: E402
+from app.crypto.pki import CertificateValidator  # noqa: E402
 
 CERT_DIR = Path("certs")
 
