@@ -1,5 +1,5 @@
-cryptography
-PyMySQL
-python-dotenv
-pydantic
-rich
+cffi==2.0.0
+cryptography==41.0.7
+mysql-connector-python==8.2.0
+protobuf==4.21.12
+pycparser==2.23
