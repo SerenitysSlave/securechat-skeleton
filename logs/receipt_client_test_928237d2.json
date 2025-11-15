@@ -1,0 +1,19 @@
+{
+  "role": "client",
+  "peer": "server",
+  "session_id": "test_928237d2",
+  "started_at": "2025-11-15T08:03:25.949842+00:00",
+  "ended_at": "2025-11-15T08:03:26.029113+00:00",
+  "total_messages": 3,
+  "seq_range": {
+    "first": 1,
+    "last": 3
+  },
+  "transcript_file": "logs/transcript_client_test_928237d2.log",
+  "transcript_sha256": "20c22d1aba09f6e9725958135e4885869d58575665a8e250d408b319160410dc",
+  "sig_alg": "RSASSA-PKCS1-v1_5+SHA256",
+  "sig": "Iv2WvW3yrEJY1EodWEonQutObA8tVmpFH09nthrF1nMtS7I4P1DnGYj7Z3MSiVQfsJxBGpAx457YJlREoom8ILDRetl7F0MbID4RdPIrmMT4ZvLyEG4Ech+zLQQJ8WdqAwncs7xznAVzqOXF9ELQ76Lu93rviL10BW1psdhJXcuG+qNf0ZQCgU2Ga+rQCr/yzFaM5lERj287NgEVqjZUtZc8NHYw5COOgPS4N6G5trzReBCoLx88mezpswFTA+GUpH6hUARfk1agbx7NMaddhuHBBPG0DrZh375BHy/ulXj4P5tSavm5lVCEm3PIIWVfUle5OieluiCmhJ91hRi4Eg==",
+  "meta": {
+    "note": "test run"
+  }
+}
